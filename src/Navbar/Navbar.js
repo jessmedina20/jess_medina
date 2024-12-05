@@ -19,7 +19,7 @@ const Navbar = () => {
       <header className="header">
         <nav className="nav container">
           <NavLink to="/" className="nav__logo">
-            Navigation Bar
+           
           </NavLink>
    
           <div
@@ -29,12 +29,12 @@ const Navbar = () => {
             <ul className="nav__list">
               <li className="nav__item">
                 <NavLink to="/" className="nav__link"  onClick={closeMenuOnMobile}>
-                  Home
+                  About Me
                 </NavLink>
               </li>
               <li className="nav__item">
-                <NavLink to="/news" className="nav__link"  onClick={closeMenuOnMobile}>
-                  News
+                <NavLink to="/research" className="nav__link"  onClick={closeMenuOnMobile}>
+                  Research
                 </NavLink>
               </li>
               <li className="nav__item">
@@ -43,7 +43,7 @@ const Navbar = () => {
                   className="nav__link"
                    onClick={closeMenuOnMobile}
                 >
-                  About Us
+                  News
                 </NavLink>
               </li>
               <li className="nav__item">
@@ -64,11 +64,7 @@ const Navbar = () => {
                   Location
                 </NavLink>
               </li>
-              <li className="nav__item">
-                <NavLink to="/get-started" className="nav__link nav__cta">
-                  Get Started
-                </NavLink>
-              </li>
+    
             </ul>
             <div className="nav__close" id="nav-close" onClick={toggleMenu}>
               <IoClose />

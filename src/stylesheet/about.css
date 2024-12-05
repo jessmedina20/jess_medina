@@ -1,22 +1,71 @@
-.main{
-    padding-top: 90px; /* Dynamic space, same as navbar height */
-    padding-left: 20px;
-    padding-right: 20px
-  } 
-  
-  .title { 
-    font-size: 2.5rem; /* Adjust text size for better readability */
-    color: #D9AE94 ; /* Ensure contrast against the background */ 
-  } 
+/* Main container for layout */
+.main {
+  padding-top: 90px; /* Dynamic space, same as navbar height */
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column; /* Stack the title and content vertically */
+  justify-content: center;
+  align-items: center;
+}
 
-  .body { 
-    font-size: 1.5rem; /* Adjust text size for better readability */
-    color: #D9AE94; /* Ensure contrast against the background */ 
+/* Centered title with the updated font size and color */
+.title {
+  font-size: 2.5rem; /* Adjust text size for better readability */
+  color: #baa587; /* Ensure contrast against the background */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px; /* Add space between title and content */
+}
+
+/* Content container for image and text */
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px; /* Limit width for better control */
+  width: 100%;
+  gap: 20px; /* Space between image and text */
+}
+
+/* Body text next to the image */
+.body {
+  font-size: 1.5rem; /* Adjust text size for readability */
+  color: #A5A58D; /* Ensure contrast against the background */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 400px; /* Limit the width of text section */
+}
+
+/* Image with fixed size */
+.image {
+  width: 200px;
+  height: 300px;
+  object-fit: cover; /* Ensure the image maintains aspect ratio */
+  justify-content: left;
+}
+
+/* Responsive behavior for smaller screens */
+@media (max-width: 768px) {
+  .main {
+    padding-top: 90px; /* Adjust padding for smaller screens */
+    font-size: 1.2rem; /* Slightly smaller text for readability */
   }
 
-  @media (max-width: 768px) {
-    .main{
-        padding-top: 90px; /* Adjust for smaller screens */
-        font-size: 1.2rem; /* Slightly smaller text for smaller screens */
-      }
-    }
+  .content {
+    flex-direction: column; /* Stack image and text vertically on smaller screens */
+    align-items: center;
+    gap: 20px;
+  }
+
+  .image {
+    width: 100%; /* Allow image to scale for smaller screens */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .body {
+    font-size: 1.2rem; /* Adjust text size for smaller screens */
+    max-width: 100%; /* Allow the text section to use full width */
+  }
+}
