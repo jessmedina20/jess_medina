@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/jess_medina/static/css/main.b38fb31f.chunk.css",
+    "main.js": "/jess_medina/static/js/main.55186b0e.chunk.js",
+    "main.js.map": "/jess_medina/static/js/main.55186b0e.chunk.js.map",
+    "runtime-main.js": "/jess_medina/static/js/runtime-main.107b69de.js",
+    "runtime-main.js.map": "/jess_medina/static/js/runtime-main.107b69de.js.map",
+    "static/js/2.aefe4ebc.chunk.js": "/jess_medina/static/js/2.aefe4ebc.chunk.js",
+    "static/js/2.aefe4ebc.chunk.js.map": "/jess_medina/static/js/2.aefe4ebc.chunk.js.map",
+    "static/js/3.6c84313d.chunk.js": "/jess_medina/static/js/3.6c84313d.chunk.js",
+    "static/js/3.6c84313d.chunk.js.map": "/jess_medina/static/js/3.6c84313d.chunk.js.map",
+    "index.html": "/jess_medina/index.html",
+    "precache-manifest.a4585f486366774f38a94b15de3eb9da.js": "/jess_medina/precache-manifest.a4585f486366774f38a94b15de3eb9da.js",
+    "service-worker.js": "/jess_medina/service-worker.js",
+    "static/css/main.b38fb31f.chunk.css.map": "/jess_medina/static/css/main.b38fb31f.chunk.css.map",
+    "static/js/2.aefe4ebc.chunk.js.LICENSE.txt": "/jess_medina/static/js/2.aefe4ebc.chunk.js.LICENSE.txt",
+    "static/media/IMG_3626.JPG": "/jess_medina/static/media/IMG_3626.c9fddbd0.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.107b69de.js",
+    "static/js/2.aefe4ebc.chunk.js",
+    "static/css/main.b38fb31f.chunk.css",
+    "static/js/main.55186b0e.chunk.js"
+  ]
+}
